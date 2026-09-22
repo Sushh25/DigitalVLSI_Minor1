@@ -19,7 +19,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-module tb_seatbelt_timer;
+module tb_seatbelt_timer () ;
 
     reg clk = 0, rst_n = 0, ignition = 0, seatbelt_unbuckled = 0;
     wire warning_buzzer;
